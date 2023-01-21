@@ -17,6 +17,5 @@ for i in range(8):
 while True:
     binary_string = ''.join(map(str, binary_statement))
     character = chr(int(binary_string, 2))
-    return character
-    # Update the progress bar
-
+    # return the stream of characters
+    yield character
